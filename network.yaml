@@ -1,0 +1,11 @@
+chaincode:
+  language: golang
+  name: loancc
+  version: '1.0'
+channel: 'on'
+deployment: docker
+identity: fabric-ca
+organizations:
+- SBI
+- ICICI
+version: '1.0'

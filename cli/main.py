@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from ai_agent.parser import parse_prompt
 from ai_agent.generator import generate_network_yaml
 
