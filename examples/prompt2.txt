@@ -1,0 +1,1 @@
+Create a Fabric network with SBI and ICICI using Fabric CA, deploy Golang chaincode called loancc on bankchannel
